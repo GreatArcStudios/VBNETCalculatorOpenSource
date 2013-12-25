@@ -155,4 +155,15 @@
         firstNum = Val(RichTextBox1.Text)
         RichTextBox1.Clear()
     End Sub
+
+
+    Private Sub Button2_KeyDown(sender As Object, e As KeyEventArgs) Handles Button2.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            Button2.PerformClick()
+        End If
+    End Sub
+
+    Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox1.TextChanged
+
+    End Sub
 End Class

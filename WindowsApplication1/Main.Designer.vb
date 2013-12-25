@@ -52,234 +52,156 @@ Partial Class Calculator
         '
         'LinkLabel1
         '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(10, 9)
+        resources.ApplyResources(Me.LinkLabel1, "LinkLabel1")
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(83, 13)
-        Me.LinkLabel1.TabIndex = 4
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "View On GitHub"
         '
         'ToolStrip1
         '
         Me.ToolStrip1.BackColor = System.Drawing.Color.Transparent
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton3})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        resources.ApplyResources(Me.ToolStrip1, "ToolStrip1")
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(412, 25)
-        Me.ToolStrip1.TabIndex = 5
-        Me.ToolStrip1.Text = "ToolStrip1"
         '
         'ToolStripButton1
         '
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripButton1, "ToolStripButton1")
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
         '
         'ToolStripButton3
         '
         Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripButton3, "ToolStripButton3")
         Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton3.Text = "ToolStripButton3"
         '
         'RichTextBox1
         '
         Me.RichTextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.RichTextBox1.Location = New System.Drawing.Point(0, 25)
+        resources.ApplyResources(Me.RichTextBox1, "RichTextBox1")
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(412, 29)
-        Me.RichTextBox1.TabIndex = 6
-        Me.RichTextBox1.Text = ""
         '
         'LinkLabel2
         '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Dock = System.Windows.Forms.DockStyle.Bottom
+        resources.ApplyResources(Me.LinkLabel2, "LinkLabel2")
         Me.LinkLabel2.LinkColor = System.Drawing.Color.White
-        Me.LinkLabel2.Location = New System.Drawing.Point(0, 259)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(119, 13)
-        Me.LinkLabel2.TabIndex = 7
         Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "View Project On GitHub"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(10, 60)
+        resources.ApplyResources(Me.Button1, "Button1")
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 26)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Clear"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(322, 135)
+        resources.ApplyResources(Me.Button2, "Button2")
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(47, 117)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "="
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(244, 135)
+        resources.ApplyResources(Me.Button3, "Button3")
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(72, 37)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "×"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(244, 175)
+        resources.ApplyResources(Me.Button4, "Button4")
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(72, 37)
-        Me.Button4.TabIndex = 11
-        Me.Button4.Text = "-"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(244, 95)
+        resources.ApplyResources(Me.Button5, "Button5")
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(72, 37)
-        Me.Button5.TabIndex = 12
-        Me.Button5.Text = "÷"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(244, 215)
+        resources.ApplyResources(Me.Button6, "Button6")
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(72, 37)
-        Me.Button6.TabIndex = 13
-        Me.Button6.Text = "+"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(166, 215)
+        resources.ApplyResources(Me.Button7, "Button7")
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(72, 37)
-        Me.Button7.TabIndex = 14
-        Me.Button7.Text = "1"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(88, 215)
+        resources.ApplyResources(Me.Button8, "Button8")
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(72, 37)
-        Me.Button8.TabIndex = 15
-        Me.Button8.Text = "2"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(88, 175)
+        resources.ApplyResources(Me.Button9, "Button9")
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(72, 37)
-        Me.Button9.TabIndex = 16
-        Me.Button9.Text = "5"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(88, 135)
+        resources.ApplyResources(Me.Button10, "Button10")
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(72, 37)
-        Me.Button10.TabIndex = 17
-        Me.Button10.Text = "8"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Button12
         '
-        Me.Button12.Location = New System.Drawing.Point(10, 175)
+        resources.ApplyResources(Me.Button12, "Button12")
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(72, 37)
-        Me.Button12.TabIndex = 19
-        Me.Button12.Text = "6"
         Me.Button12.UseVisualStyleBackColor = True
         '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(10, 215)
+        resources.ApplyResources(Me.Button13, "Button13")
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(72, 37)
-        Me.Button13.TabIndex = 20
-        Me.Button13.Text = "3"
         Me.Button13.UseVisualStyleBackColor = True
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(166, 135)
+        resources.ApplyResources(Me.Button14, "Button14")
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(72, 37)
-        Me.Button14.TabIndex = 21
-        Me.Button14.Text = "7"
         Me.Button14.UseVisualStyleBackColor = True
         '
         'Button15
         '
-        Me.Button15.Location = New System.Drawing.Point(166, 175)
+        resources.ApplyResources(Me.Button15, "Button15")
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(72, 37)
-        Me.Button15.TabIndex = 22
-        Me.Button15.Text = "4"
         Me.Button15.UseVisualStyleBackColor = True
         '
         'Button11
         '
-        Me.Button11.Location = New System.Drawing.Point(10, 135)
+        resources.ApplyResources(Me.Button11, "Button11")
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(72, 37)
-        Me.Button11.TabIndex = 23
-        Me.Button11.Text = "9"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(88, 95)
+        resources.ApplyResources(Me.Button16, "Button16")
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(150, 37)
-        Me.Button16.TabIndex = 24
-        Me.Button16.Text = "0"
         Me.Button16.UseVisualStyleBackColor = True
         '
         'Button17
         '
-        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(10, 95)
+        resources.ApplyResources(Me.Button17, "Button17")
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(72, 37)
-        Me.Button17.TabIndex = 25
-        Me.Button17.Text = "."
         Me.Button17.UseVisualStyleBackColor = True
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(322, 95)
+        resources.ApplyResources(Me.Button18, "Button18")
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(47, 37)
-        Me.Button18.TabIndex = 26
-        Me.Button18.Text = "√"
         Me.Button18.UseVisualStyleBackColor = True
         '
         'Calculator
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(412, 272)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
@@ -305,7 +227,6 @@ Partial Class Calculator
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.HelpButton = True
         Me.Name = "Calculator"
-        Me.Text = "Form1"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
