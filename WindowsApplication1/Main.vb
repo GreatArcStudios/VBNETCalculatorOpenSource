@@ -2,6 +2,7 @@
     Dim process As String
     Dim firstNum As Int64
     Dim secondNum As Int64
+    Dim textBoxNumm As Int64
     Dim result As Int64
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         Me.Close()
@@ -165,5 +166,38 @@
 
     Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox1.TextChanged
 
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        firstNum = RichTextBox1.Text
+        firstNum = firstNum * firstNum
+        RichTextBox1.Text = firstNum
+    End Sub
+
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        firstNum = RichTextBox1.Text
+        firstNum = firstNum ^ (1 / 3)
+        Console.Write(firstNum)
+        RichTextBox1.Text() = firstNum
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        firstNum = RichTextBox1.Text
+        firstNum = firstNum ^ (1 / 4)
+        Console.Write(firstNum)
+        RichTextBox1.Text() = firstNum
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        If Val(RichTextBox1.Text) < 0 Then
+            textBoxNumm = RichTextBox1.Text
+            textBoxNumm = +textBoxNumm
+            RichTextBox1.Text = textBoxNumm
+        End If
+        If Val(RichTextBox1.Text) > 0 Then
+            textBoxNumm = RichTextBox1.Text
+            textBoxNumm = -textBoxNumm
+            RichTextBox1.Text = textBoxNumm
+        End If
     End Sub
 End Class

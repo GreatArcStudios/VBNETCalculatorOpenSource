@@ -47,6 +47,10 @@ Partial Class Calculator
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -197,11 +201,39 @@ Partial Class Calculator
         Me.Button18.Name = "Button18"
         Me.Button18.UseVisualStyleBackColor = True
         '
+        'Button19
+        '
+        resources.ApplyResources(Me.Button19, "Button19")
+        Me.Button19.Name = "Button19"
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        resources.ApplyResources(Me.Button20, "Button20")
+        Me.Button20.Name = "Button20"
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        resources.ApplyResources(Me.Button21, "Button21")
+        Me.Button21.Name = "Button21"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button22
+        '
+        resources.ApplyResources(Me.Button22, "Button22")
+        Me.Button22.Name = "Button22"
+        Me.Button22.UseVisualStyleBackColor = True
+        '
         'Calculator
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
+        Me.Controls.Add(Me.Button22)
+        Me.Controls.Add(Me.Button21)
+        Me.Controls.Add(Me.Button20)
+        Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
@@ -257,5 +289,9 @@ Partial Class Calculator
     Friend WithEvents Button16 As System.Windows.Forms.Button
     Friend WithEvents Button17 As System.Windows.Forms.Button
     Friend WithEvents Button18 As System.Windows.Forms.Button
+    Friend WithEvents Button19 As System.Windows.Forms.Button
+    Friend WithEvents Button20 As System.Windows.Forms.Button
+    Friend WithEvents Button21 As System.Windows.Forms.Button
+    Friend WithEvents Button22 As System.Windows.Forms.Button
 
 End Class
