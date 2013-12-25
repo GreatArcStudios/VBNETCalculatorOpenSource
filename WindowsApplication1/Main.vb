@@ -102,7 +102,7 @@
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
         firstNum = Val(RichTextBox1.Text)
-        Math.Sqrt(firstNum)
+        firstNum = Math.Sqrt(firstNum)
         Console.Write(firstNum)
         RichTextBox1.Text() = firstNum
 
