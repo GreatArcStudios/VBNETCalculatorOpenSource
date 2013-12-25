@@ -104,7 +104,7 @@
         firstNum = Val(RichTextBox1.Text)
         Math.Sqrt(firstNum)
         Console.Write(firstNum)
-        RichTextBox1.Clear()
+        RichTextBox1.Text() = firstNum
 
     End Sub
 
@@ -118,20 +118,24 @@
         If process = "+" Then
             secondNum = Val(RichTextBox1.Text)
             result = firstNum + secondNum
+            RichTextBox1.Text = result
         End If
         If process = "-" Then
             secondNum = Val(RichTextBox1.Text)
             result = firstNum - secondNum
+            RichTextBox1.Text = result
         End If
         If process = "*" Then
             secondNum = Val(RichTextBox1.Text)
             result = firstNum * secondNum
+            RichTextBox1.Text = result
         End If
         If process = "/" Then
             secondNum = Val(RichTextBox1.Text)
             result = firstNum / secondNum
+            RichTextBox1.Text = result
         End If
-        RichTextBox1.Text = result
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
